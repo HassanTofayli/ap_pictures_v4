@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    background-image: url("../images/pictures_orange_stroke.svg");
+    padding: 0;
+}
+.top_bar_words {
+    color: #0A015B;
+}
+
+
+/*#################### MIDDLE ####################*/
+
+.my-card {
+    border: 0;
+    margin: 0;
+
+}
+.card-body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scale: 1;
+    display: flex;
+    justify-content: center;
+}
+.swiper {margin-top: 52px; width: 90%}
+.swiper-wrapper {height: unset;}
+.slide-content{width: 100%; margin-left: auto; margin-right: auto;}
+.card {
+    background-color: transparent;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: 50%;
+}
+.swiper-pagination {
+}
+.full-card{
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.card-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #F66A00;
+    border-radius: 20px;
+    width: 220px;
+    height: 204px;
+    text-align: center;
+}
+.img-container {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #F66A00;
+    border-radius: 20px;
+    width: 183px;
+    height: 125px;
+    margin-top: 15px;
+}
+.btn {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    width: 68px;
+    height: 27px;
+    margin-top: 16px;
+    background-image: url("/images/full_colection_button.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.btn:hover{
+    background-image: url("/images/full_colection_button_hover.png");
+}
+.logo-shadow {
+    margin-top: 15px;
+}
+.second-card{
+    margin-top: 45px;
+}
+
+
+/*############################# FOOTER #############################*/

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    background-image: url("../images/pictures_orange_stroke.svg");
+    padding: 0 5%;
+}
+.top_bar_words {
+    color: #0A015B;
+}
+
+
+/*#################### MIDDLE ####################*/
+.img_of_card{
+    width: 100%;
+}
+.my-card {
+    border: 0;
+    margin: 0;
+}
+.full-collection-button-blue {
+    width: 20%;
+}
+.full-collection-button-orange {
+    width: 30%;
+}
+
+
+.footer-basic .social > a {
+    color: gray;
+}
+.footer-basic ul a {
+    color: gray;
+}
