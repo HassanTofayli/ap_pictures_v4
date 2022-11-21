@@ -1,0 +1,88 @@
+body {
+    background-color: #0A015B;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main_logo {
+    margin-left: 40px;
+}
+
+.intro {
+
+}
+
+#welcom_vid {
+
+    width: 100%;
+    top: -50px;
+}
+
+.welcom-vid-container {
+    display: block;
+    width: 100%;
+    top: 0;
+}
+
+.top_area {
+    position: absolute;
+    top: 0;
+}
+
+.title-container {
+    text-align: center;
+    position: relative;
+    top: -25vw;
+}
+
+#main_title {
+
+}
+
+.details {
+    position: relative;
+    width: 100%;
+    height: 45vw;
+    margin-top: -15vw;
+    z-index: -1;
+}
+
+.details-left {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #816548;
+}
+#trailer {
+    width: 100%;
+    height: 50vw;
+}
+.swiper-image{
+
+}
+
+.card {
+    border: 0;
+}
+/*SWIPER CSS*/
+
+
+
+.swiper {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 50vw;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
